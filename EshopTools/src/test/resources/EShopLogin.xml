@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container name="root">
+	<container name="Environments">
+
+		<container name="TEST1">
+			<field name="url" value="https://eshop-train.test.intranet/eshop/customerCare/dist/index.html"></field>
+			<container name="EshopLoginPage">
+				<container name="Valid">
+					<field name="tbx_username" value="" type="mandatory" />
+					<field name="tbx_password" value="" type="mandatory" ></field>
+				</container>
+			</container>
+		</container>
+
+		<container name="TEST2">
+			<field name="url" value="https://bmp-tara-tool-service-devsi4.kubemdc-test.corp.intranet/#!/tara-tool-controller/completeOrderWithLogUsingPOST"></field>
+			<container name="Valid">
+				<container name="Valid">
+					<field name="tbx_username" value="" type="mandatory" />
+					<field name="tbx_password" value="" type="mandatory" />
+				</container>
+			</container>
+		</container>
+
+
+
+		<container name="TEST4">
+			<field name="url" value="https://ctl-consumer--pp4uat.my.salesforce.com/"></field>
+				<container name="EshopLoginPage">
+				<container name="Valid">
+					<field name="tbx_username" value="EnterYourUserName" type="mandatory" />
+					<field name="tbx_password" value="EnterYourUserPassword" type="mandatory" />
+				</container>
+			</container>
+		</container>
+
+	</container>
+</container>
